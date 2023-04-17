@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+                <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center_vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="30sp"
+                            android:text="Name : "
+                            android:textColor="@android:color/black"
+                            android:textStyle="italic"
+                            android:textAllCaps="true"
+                            />
+
+                        <TextView
+                            android:id="@+id/ability"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="30sp"
+                            android:text="test"
+                            android:textColor="@android:color/black"
+                            android:textStyle="italic"
+                            android:textAllCaps="true"
+                            />
+
+
+                    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:text="slot : "
+            android:textColor="@android:color/black"
+            android:textStyle="italic"
+            android:textAllCaps="true"
+            />
+
+        <TextView
+            android:id="@+id/slot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:text="test"
+            android:textColor="@android:color/black"
+            android:textStyle="italic"
+            android:textAllCaps="true"
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:text="is hidden : "
+            android:textColor="@android:color/black"
+            android:textStyle="italic"
+            android:textAllCaps="true"
+            />
+
+        <TextView
+            android:id="@+id/is_hidden"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:text="test"
+            android:textColor="@android:color/black"
+            android:textStyle="italic"
+            android:textAllCaps="true"
+            />
+
+
+    </LinearLayout>
+
+
+
+                </LinearLayout>
